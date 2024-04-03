@@ -1,0 +1,38 @@
+
+.navbar-nav .nav-link {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  padding: 2rem 3rem;
+}
+#Home {
+    padding: 12rem 0;
+    background: whitesmoke;
+    color: #000000;
+    width: 100%;
+    height: 50%;
+}
+
+#About{
+    padding: 5rem 0;
+} 
+#Hobbi {
+    padding: 5rem 0;
+}
+.card {
+    margin-bottom: 20px;
+}
+  
+#Profile {
+    padding: 5rem 0;
+}
+.navbar.fixed-top {
+    position: sticky;
+    top: 0;
+    z-index: 900;
+}
+  
+section {
+    min-height: 100vh;
+}
